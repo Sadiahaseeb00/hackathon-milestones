@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-----------left-side------------>
+        <div class="left-side">
+            <div class="profile-image">
+                <img src="resume project.jpg" alt="profile photo">
+            </div>
+            <h2 class="name">Sadia Haseeb</h2>
+            <div class="info">
+                <p>sad130@gmail.com</p>
+                <p>+ 92 0310665578</p>
+            </div>
+            <div class="link"> <!-----------social-links------------>
+                <h2>Social Links</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-facebook"></i></span>
+                        <a href="https://www.facebook.com/" title="facebook"><span
+                                class="text">https://www.facebook.com/</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-square-github"></i></span>
+                        <a href="https://github.com" title="github"><span class="text">https://github.com</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                        <a href="https://www.linkedin.com" title="linkedin"><span
+                                class="text">https://www.linkedin.com</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- right section-->
+        <div class="right-side">
+            <section id="education-sec"> <!-----------education-sec------------>
+                <h2 class="education-heading">Education</h2>
+                <p>Graduation (2020 - 2023)</p>
+            </section>
+            <section id="skill-sec"> <!-----------skill-sec------------>
+                <h2 class="skill-heading">Skills</h2>
+                <div class="allSkills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Nextjs</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="experience-sec"> <!-----------experience-sec------------>
+                <h2 class="experience-heading">Experience</h2>
+                <p>XYZ company</p>
+            </section>
+            <!--Toggle button skill section-->
+            <button id="toggle-skill-btn" type="button">Toggle Skills</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
